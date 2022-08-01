@@ -19,6 +19,8 @@ div {
     margin: 10px 0;
 }
 
+
+
 [type="text"], 
 [type="password"],
 textarea,
@@ -28,15 +30,25 @@ button,
 [type="submit"],
 [type="button"] {
     background-color: bisque;
+    border: 1px solid #ffbc6c;
+    outline: none;
+    font-size: 10px;
+    color: #683800;
+    padding: 4px;
+    border-radius: 3px;
+    width: 50%;
 }
 
 .opcje label {
     display: inline;
 }
 
-
-
-html body form label {
+label {
     display: inline-block;
     width: 66px;
 }
+
+[type="button"], [type="submit"], button {
+    width: 100px;
+}
+
