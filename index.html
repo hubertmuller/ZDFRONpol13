@@ -146,18 +146,64 @@
         <marquee behavior="" direction="">tekst latający</marquee>
 
 <form action="index2.html" method="post">
-<div>
-    <label for="imieForm">Imię</label>
-    <input type="text" name="imię" id="imieForm">
-</div>
-<div>
-    <label for="hasloForm">Hasło</label>
-    <input type="password" name="hasło" id="hasloForm">
-</div>
-<div>               
-    <label for="wiekForm">Wiek</label>
-    <input type="number" name="wiek" id="wiekForm">
-</div>
+
+    <div class="basic">
+        <label for="imieForm">Imię</label>
+        <input class="style" type="text" name="imię" id="imieForm">
+    </div>
+    <div class="basic">
+        <label for="surnameForm">Nazwisko</label>
+        <input class="style" type="text" name="Nazwisko" id="surnameForm">
+    </div>
+    <div class="basic">
+        <label for="hasloForm">Hasło</label>
+        <input class="style" type="password" name="hasło" id="hasloForm">
+    </div>
+    <div>               
+        <label for="wiekForm">Wiek</label>
+        <input type="number" name="wiek" id="wiekForm">
+    </div>
+    
+    <div>
+        <label for="kidsForm">Ilość dzieci</label>
+        <select name="dzieci" id="kidsForm" multiple size="2">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4+</option>
+        </select>
+    </div>
+    <div>
+        <label for="uwagiForm">Uwagi</label>
+        <textarea name="uwagi" id="uwagiForm" cols="30" rows="10">...</textarea>
+    </div>
+    
+    <div>
+        <input type="button" value="Wyślij">
+        <button>Send</button>  <!--po naciśnięciu wysyła-->
+        <input type="submit" value="Prześlij">  <!--po naciśnięciu wysyła-->
+    </div>
+    
+    <div class="opcje">               
+        <label for="sexForm">Płeć:</label>
+        <label for="womenForm">kobieta</label>
+        <input type="radio" id="womenForm"name="Płeć" value="kobieta">
+        <label for="menForm" >mężczyzna</label>
+        <input type="radio" id="menForm" name="Płeć" value="mężczyzna">
+    </div>
+    
+    <div class="opcje">               
+        <label for="mealForm">Poczęstunek:</label>
+        <label for="cofeeForm" >kawa</label>
+        <input type="checkbox" id="cofeeForm" name="Poczęstunek" value="kawa">
+        <label for="teaForm" >herbata</label>
+        <input type="checkbox" id="teaForm" name="Poczęstunek" value="herbata">
+        <label for="cookieForm" >ciastko</label>
+        <input type="checkbox" id="cookieForm" name="Poczęstunek" value="ciastko">
+    </div>
+
+
 
 
 </form>
