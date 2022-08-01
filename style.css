@@ -13,10 +13,7 @@ ol {
     list-style-type: disc;
 }
 
-label {
-    display: inline-block;
-    width: 66px;
-}
+
 
 div {
     margin: 10px 0;
@@ -33,5 +30,13 @@ button,
     background-color: bisque;
 }
 
+.opcje label {
+    display: inline;
+}
 
 
+
+html body form label {
+    display: inline-block;
+    width: 66px;
+}
