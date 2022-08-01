@@ -21,3 +21,41 @@ label {
 div {
     margin: 0px;
 }
+
+input[type="text"], 
+input[type="password"],
+textarea,
+select,
+[type="number"],
+button,
+[type="button"],
+[type="submit"]
+
+ {
+    background-color:bisque
+
+}
+
+/*[class="podstawowe"] {
+    background-color:aquamarine
+}
+*/
+form /*>*/ [class="podstawowe"] {
+    background-color:aquamarine;
+    margin:0;
+}
+
+
+/*
+input[id="imieForm"] {
+
+}
+
+input[id] {
+
+}
+
+[id="passwordForm"] {
+
+}
+*/

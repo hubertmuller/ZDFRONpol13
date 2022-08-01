@@ -93,7 +93,7 @@
     </p>
     <h2>14.07.2022</h2>
     <marquee>this is marquee</marquee>
-    <h2>zadanie 19:30</h2>
+    <h2>zadanie 19:30 - UWAGA - edited 01.08.2022</h2>
     <p style="margin-inline-start: 4em;">tekst w paragrafie pod CSS z wcięciem 4em INLINE</p>
     <p>   
     <ol>
@@ -110,16 +110,20 @@
     </p>
     <h2 style="font-size: 3em;font-weight:600;">h2 z nadpisanym stylem INLINE</h2>
 
-    <h2>formularz 20:18</h2>
+    <h2>formularz 20:18 - UWAGA - edited 01.08.2022!</h2>
     <h2>przykład spana 21:06</h2>
     <p>
         <span>tekst w span</span>
     </p>
 
     <form method="post" action="index2.html">
-        <div>
+        <div class="podstawowe">
             <label for="imieForm">Imię</label>
             <input id="imieForm" type="text" name="imie">
+        </div>
+        <div class="podstawowe">
+            <label for="nazwiskoForm">Nazwisko</label>
+            <input id="nazwiskoForm" type="text" name="nazwisko">
         </div>
         <div>
             <label for="hasloForm">Hasło</label>
@@ -129,7 +133,43 @@
             <label for="wiekForm">Wiek</label>
             <input id="wiekForm" type="number" name="wiek">
         </div>
+        <div>
+            <label for="dzieciForm">Ilość dzieci</label>
+            <select name="dzieci" id="dzieciForm" multiple size="2">
+                <option value="1">jeden</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4+</option>
+            </select>
+        </div>
+        <div>
+            <label for="uwagiForm">Ilość dzieci</label>
+            <textarea name="uwagi" id="uwagiForm">... </textarea>
+        </div>
+        <div>
+            <label for="uwagiForm">Płeć</label>
 
+            <label for="kobietaForm">Kobieta</label>
+            <input type="radio" id="kobietaForm" name="plec" value="k">
+            <label for="mezczyznaForm">Mężczyzna</label>
+            <input type="radio" id="mezczyznaForm" name="plec" value="m">
+        </div>
+
+        <div>
+            <label for="uwagiForm">Poczęstunek</label>
+
+            <label for="kawaForm">Kawa</label>
+            <input type="checkbox" id="kawaForm" name="poczestunek" value="k">
+            <label for="herbataForm">Herbata</label>
+            <input type="checkbox" id="herbataForm" name="poczestunek" value="h">
+            <label for="ciastkoForm">Ciastko</label>
+            <input type="checkbox" id="ciastkoForm" name="poczestunek" value="c">
+        </div>
+        <div>
+            <input type="button" value="Wyślij1">
+            <input name="wyslij" type="button" value="Wyślij2">
+            <input type="submit" value="Wyślij3">
+        </div>
     </form>
 
     <h1>01.08.2022</h1>
