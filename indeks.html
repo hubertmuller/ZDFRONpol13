@@ -106,20 +106,65 @@
     </ul>
 
     <form method="post" action="indeks2.html">
-        <div>
-        <label for="imieForm">Imię</label>   
-        <input id="imieForm" type="text" name="imie">
+        <div class="podstawowe">
+            <label for="imieForm">Imię</label>   
+            <input id="imieForm" type="text" name="imie">
+        </div>
+
+        <div class="podstawowe">
+            <label for="nazwiskoForm">Nazwisko</label>   
+            <input id="nazwiskoForm" type="text" name="Nazwisko">
         </div>
 
         <div>
-        <label for="passwordForm">Hasło</label>    
-        <input id="passwordForm" type="password" name="Hasło">
+            <label for="passwordForm">Hasło</label>    
+            <input id="passwordForm" type="password" name="Hasło">
         </div>
 
         <div>
-        <label for="wiekForm">Wiek</label>    
-        <input id="wiekForm" type="text" name="wiek">
+            <label for="wiekForm">Wiek</label>    
+            <input id="wiekForm" type="text" name="wiek">
         </div>
+        <div>
+            <label for="dzieciForm">Ilość dzieci</label>    
+            <select name="dzieci" id="dzieciForm" multiple size="2"> 
+                    <option value="1">jeden</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4+</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="uwagiForm">Uwagi</label>    
+            <textarea name="uwagi" id="uwagiForm">...</textarea>
+        </div>
+
+        <div>
+            <input name="wyślij" type="button" value="wyślij">
+            <button>wyślij</button>
+            <input type="submit" value="wyślij">
+        </div>
+
+        <div class="opcje">
+            <label for="uwagiForm">Płeć</label>
+            <label for="kobietaForm">Kobieta</label>
+            <input type="radio" id="kobietaForm" name="plec" value="k">
+            <label for="mężczyznaForm">Mężczyzna</label>
+            <input type="radio" id="mężczyznaForm"  name="plec" value="m">
+        </div>
+
+        <div class="opcje">
+            <label for="poczęstunekForm">Poczęstunek</label>
+
+            <label for="kawaForm">Kawa</label>
+            <input type="checkbox" id="kawaForm" name="poczęstunek" value="k">
+            <label for="herbataForm">Herbata</label>
+            <input type="checkbox" id="herbataForm" name="poczęstunek" value="h">
+            <label for="ciastoForm">Ciasto</label>
+            <input type="checkbox" id="ciastoForm" name="poczęstunek" value="c">
+        </div>
+
     </form>
 
 </body>
