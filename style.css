@@ -5,6 +5,9 @@
 
 /*TEN STYL JEst do czegos*/
 
+* {
+    box-sizing: border-box;
+}
 
 ol {
     list-style-type: disc;
