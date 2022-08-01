@@ -85,7 +85,7 @@
         sit ametLorem ipsum et door sit ametLorem
     </p>
 
-    <ol>
+    <ol class="podstawowe">
         <li>Kość strzałkowa</li>
         <li>Kość łokciowa</li>
         <ul>
@@ -108,10 +108,24 @@
 
     <form method="post" action="index2.html">
         <div>
+            <div class="podstawowe">
+                <label for="imieForm">Imię</label>
+                <input id="imieForm" type="text" name="imie">
+            </div>
+        </div>
+    </form>
+
+    <form method="post" action="index2.html">
+        <div>
+        <div class="podstawowe">
             <label for="imieForm">Imię</label>
             <input id="imieForm" type="text" name="imie">
         </div>
-        <div>
+        <div class="podstawowe">
+            <label for="nazwiskoForm">Nazwisko</label>
+            <input id="nazwiskoForm" type="text" name="nazwisko">
+        </div>
+        <div class="podstawowe">
             <label for="passwordForm">Hasło</label>
             <input id="passwordForm" type="password" name="haslo">
         </div>
@@ -119,6 +133,45 @@
             <label for="wiekForm">Wiek</label>
             <input id="wiekForm" type="number" name="wiek">
         </div>
+        <div>
+            <label for="dzieciForm">Ilość dzieci</label>
+            <select name="dzieci" id="dzieciForm" multiple size="2">
+                <option value="1">jeden</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4+</option>
+            </select>
+        </div>
+        <div>
+            <label for="uwagiForm">Uwagi</label>
+            <textarea name="uwagi" id="uwagiForm">...</textarea>
+        </div>
+        <div>
+            <label for="uwagiForm">Płeć</label>
+
+            <label for="kobietaForm">Kobieta</label>
+            <input type="radio" id="kobietaForm" name="plec" value="k">
+            <label for="mezczyznaForm">Mężczyzna</label>
+            <input type="radio" id="mezczyznaForm" name="plec" value="m">
+        </div>
+        <div>
+            <label for="uwagiForm">Poczęstunek</label>
+            
+            <label for="kawaForm">Kawa</label>
+            <input type="checkbox" id="kawaForm" name="poczestunek" value="k">
+            <label for="herbataForm">Herbata</label>
+            <input type="checkbox" id="herbataForm" name="poczestunek" value="h">
+            <label for="ciastkoForm">Ciastko</label>
+            <input type="checkbox" id="ciastkoForm" name="poczestunek" value="c">
+        </div>
+        <div>
+            <input name="wyslij" type="button" value="Wyślij">
+            <button>Wyslij</button>
+            <button>Wyslij2</button>
+            <input type="submit" value="Wyślij">
+        </div>
+
+    </div>
     </form>
 
     <div style="width: 500px; border: 1px solid black;">
