@@ -56,3 +56,9 @@ margin-block-end: 50px;}
     display: inline-block;
     width: 500:3px;
 }
+
+form. [type] {background-color: aquamarine;}
+
+.opcje label {
+    display: inline;
+}
