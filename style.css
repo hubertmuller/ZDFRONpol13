@@ -19,3 +19,19 @@ label {
     width: 65px;
     
 }
+
+
+input[name="login"]
+ {
+    background-color: bisque;
+}
+
+    input[name="password"]
+    {
+        background-color: bisque;
+    }
+    input[name="age"]
+    {
+        background-color: bisque;
+    }
+    
