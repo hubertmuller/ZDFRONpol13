@@ -45,6 +45,13 @@ form /*>*/ [class="podstawowe"] {
     margin:0;
 }
 
+.opcje label {
+    display: inline;
+}
+
+input#kawaForm {
+    
+}
 
 /*
 input[id="imieForm"] {
