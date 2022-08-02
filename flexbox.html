@@ -15,18 +15,20 @@
             justify-content: center;
             align-items: center;
             align-content: flex-start;
+            width: 299px;
         }
 
         .pudlo__item {
             border: 1px solid black;
             height: 50px;
-            width: 50px;
+            /* width: 50px; */
+            flex: 1 1 auto;
         }
 
         .pudlo__item--failure {
             background-color: red;
-            width: 70px;
-            height: 70px;
+            /* width: 70px; */
+            /* height: 70px; */
         }
 
         
@@ -44,17 +46,66 @@
 
         .pudlo__item--sunset {
             background-color: #e9f0b5;
-            /* flex: 0.5 0 150px; */
-            width: auto;
+            flex: 1 0 auto;
+            width: min-content;
         }
 
         
         .pudlo__item--sky {
             background-color: #00fbff;
         }
+
+        .kafelek {
+            width: 250px;
+            border: 1px solid rgb(255, 179, 179);
+            background: linear-gradient(to bottom, #000, #fff);
+            position: relative;
+        }
+
+        .kafelek__obraz {
+            display: block;
+            width: 100%;
+        }
+
+        .kafelek__tytul {
+            color: white;
+            margin: 10px;
+            padding: 5px;
+            font-size: 12px;
+            background-color: #00000087;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 1;
+        }
+
+        .kafelek__zajawka {
+            position: absolute;
+            bottom: 0;
+            margin: 0px;
+            padding: 10px 10px 20px 10px;
+            text-shadow: 0px 0px 3px white;
+            background-color: rgb(37 21 149 / 42%);
+        } 
+
+        .kafelek__link {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            padding: 10px;
+        }
     </style>
 </head>
 <body>
+
+    <div class="kafelek">
+        <h2 class="kafelek__tytul">Gardzi samochodami. Woli latać</h2>
+        <img src="img/eurofighter.webp" class="kafelek__obraz">
+        <p class="kafelek__zajawka">Pani Halina z Kałkowa wygrała w LOTTO. Lata do pracy F16</p>
+        <a class="kafelek__link" href="text.html">więcej</a>
+    </div>
+
+
     <div class="pudlo">
         <div class="pudlo__item pudlo__item--sunset">one</div>
         <div class="pudlo__item pudlo__item--good">two</div>
