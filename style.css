@@ -188,14 +188,14 @@ input[id]
 {
 
 }
-
+/*
 form > [class="podstawowe"]
-/* form > div.podstawowe lub form > .podstawowe */
+ form > div.podstawowe lub form > .podstawowe 
 {
 	background-color: #cae919;
 	margin: 0;
 }
-
+*/
 .opcje label
 {
 	display: inline;
@@ -231,3 +231,16 @@ td, th {
 > element bedacy dzieckiem tego znacznika
 spacja element zagniezdzony w tym znaczniku
 */
+
+select:hover, textarea:hover, input:hover {
+	background-color: #e919a4;
+	color: #e3e7bc;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover
+{
+	background-color: #cc0a0a;
+	color: #e3e7bc;
+}

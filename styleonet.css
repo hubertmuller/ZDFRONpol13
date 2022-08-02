@@ -1,8 +1,15 @@
+.glowny {
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
 .kafel {
     background-color: antiquewhite;
     display: inline-block;
     height: 140px;
-    width: 300px;
+    width: 250px;
     position: relative;
     overflow: hidden;
 }
