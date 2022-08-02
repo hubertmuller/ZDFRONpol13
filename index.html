@@ -18,19 +18,33 @@
 </head>
 <body>
 
-    <div style="width: 500px;">
-        <div style="width: 500px; background-color: red">
-            <span>tekst0</span>
-        </div>
+    <div style="width: 40%; display: inline-block; background-color: red">1</div>
+    <div style="width: 150px; display: inline-block; background-color: rgb(14, 65, 233)">2</div>
+    <div style="width: 150px; display: inline-block; background-color: rgb(26, 224, 132)">3</div>
+    <div style="width: 150px; display: inline-block; background-color: rgb(233, 236, 26)">4</div>
+    <div style="width: 150px; display: inline-block; background-color: rgb(152, 19, 230)">5</div>
+    <div style="width: 150px; display: inline-block; background-color: rgb(230, 144, 17)">6</div>
 
-        <div style="width: 67%; display: inline;"></div>
-        <div style="width: 33%; display: inline;"></div>
-
-        <div style="width: 33,5%; display: inline;"></div>
-        <div style="width: 33,5%; display: inline;"></div>
-        <div style="width: 33%; display: inline;"></div>
-    
+    <div id="nowy">
+        <div style="display: inline-flex" id="nowy1">nowy1</div>
+        <div style="display: inline-flex" id="nowy2">nowy2</div>
+        <div style="display: inline-flex" id="nowy3">nowy3</div>
+        <div style="display: inline-flex" id="nowy4">nowy4</div>
+        <div style="display: inline-flex" id="nowy5">nowy5</div>
     </div>
+
+<br>
+
+    <div id="glowny">
+        <div id="div1"> div1 </div>
+        <div style="display: inline-block" id="div2">div2</div>
+        <div style="display: inline-block" id="div3">div3</div>
+        <div style="display: inline-block" id="div4">div4</div>
+        <div style="display: inline-block" id="div5">div5</div>
+        <div style="display: inline-block" id="div6">div6</div>
+    </div>
+
+    <br>
 
            <div style="width: 500px;">
                    <span>tekst0</span>
@@ -180,18 +194,69 @@
     </p>
 
 <form method="post" action="index2.html">
-     <div>
+     <div class="podstawowe">
         <label for="imieForm">Imię</label>
-        <input id="imieForm" type="text" name="imię">
+        <input id="imieForm" type="text" name="imie">
+     </div>
+     <div class="podstawowe">
+        <label for="nazwiskoForm">Nazwisko</label>
+        <input id="nazwiskoForm" type="text" name="nazwisko">
      </div>
      <div>
         <label for="passwordForm">Hasło</label>
         <input id="passwordForm" type="password" name="hasło">
      </div>
      <div>
-<label for="wiekForm">Wiek</label>
+     <label for="wiekForm">Wiek</label>
         <input id="wiekForm" type="number" name="wiek">
      </div>
+     <div>
+        <label for="dzieciForm">Ilość dzieci</label>
+           <select name="" id="">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4+</option>
+           </select>
+        </div>
+        <div>
+            <label for="dzieciForm2">Ilość dzieci 2</label>
+               <select name="dzieci" id="dzieciForm2" multiple size="2">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4+</option>
+               </select>
+            </div>
+            <div>
+                <label for="uwagiForm">Uwagi</label>
+                   <textarea name="uwagi" id="uwagiForm">...</textarea>
+                </div>
+            <div class="opcje">
+                <label for="uwagiForm">Płeć</label>
+                <label for="kobietaForm">Kobieta</label>    
+                <input type="radio" id="kobietaForm" name="płeć" value="kobieta">
+                <label for="mężczyznaForm">Mężczyzna</label>
+                <input type="radio" id="mężczyznaForm" name="płeć" value="mężczyzna">
+                    <input type="radio" name="płeć2" value="kobieta">
+                    <input type="radio" name="płeć2" value="mężczyzna">
+                    <input type="radio" name="płeć2" value="obojnak">
+                </div>
+                <div class="opcje">
+                    <label for="poczęstunekForm">Poczęstunek</label>
+                        <label for="kawaForm">kawa</label>
+                        <input type="checkbox" id="kawaForm" name="poczęstunek" value="kawa">
+                        <label for="herbataForm">herbata</label>
+                        <input type="checkbox" id="herbataForm" name="poczęstunek" value="herbata">
+                        <label for="ciastkoForm">ciastko</label>
+                        <input type="checkbox" id="ciastkoForm" name="poczęstunek" value="ciastko">
+                    </div>
+            <div>
+                <input name="Wyślij" type="button" value="Wyślij">
+                <button>Wyślij</button>
+                <input type="submit" value="Wyślij">
+            </div>
+
 
 </form>
 

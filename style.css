@@ -2,6 +2,104 @@
     box-sizing: border-box;
 }
 
+#nowy
+    {
+        font-size: 0;
+        width: 100%;
+        height: 125px;
+    }
+
+    #nowy1
+    {
+        width: 300px;
+		height: 100%;
+		background-color: #cae919;
+    }
+
+    #nowy2
+    {
+        width: 300px;
+		height: 100%;
+		background-color: #f38c2c;
+    }   
+
+    #nowy3
+    {
+        width: 300px;
+		height: 100%;
+		background-color: #19e9e9;
+    }    
+
+    #nowy4
+    {
+        width: 300px;
+		height: 100%;
+		background-color: #e919a4;
+    }
+
+    #nowy5
+    {
+        width: 300px;
+		height: 100%;
+		background-color: #f1da09;
+    }
+
+#glowny 
+    {font-size: 0;
+	width: 500px;
+	height: 500px;
+	border: 1px solid black;
+    }
+
+	#div1
+	{
+		width: 100%;
+		height: 34%;
+		background-color: #FCAB64;
+		border: 1px solid black;
+	}
+
+	#div2
+	{
+		width: 67%;
+		height: 33%;
+		background-color: #A1FCDF;
+		border: 1px solid black;
+	}
+
+	#div3
+	{
+		width: 33%;
+		height: 33%;
+	    background-color: #FCD29F;
+		border: 1px solid black;
+	}
+
+	#div4
+	{
+		width: 34%;
+		height: 33%;
+		background-color: #7FD8BE;
+		border: 1px solid black;
+	}
+
+	#div5
+	{
+		width: 33%;
+		height: 33%;
+		background-color: #FCAB64;
+		border: 1px solid black;
+	}
+
+	#div6
+	{
+		width: 33%;
+		height: 33%;
+		background-color: #FCEFEF;
+		border: 1px solid black;
+		
+	}
+
 h1 {
     font-size: 2em;
     font-weight: normal;
@@ -14,7 +112,7 @@ ol{
 
 label{
     display: inline-block;
-    width: 50px;
+    width: 150px;
 }
 
 div{
@@ -33,3 +131,67 @@ div{
         opacity: 0;
     }
 }
+
+input[type="text"], 
+input[type="password"],
+textarea,
+select,
+[type="number"],
+button,
+[type="submit"],
+[type="button"]
+{
+	background-color: #A1FCDF;
+	border: 1px solid rgb(0, 255, 221);
+	outline: none;
+	font-size: 10px;
+	color: #e919a4;
+	padding: 4px;
+	border-radius: 3px;
+	width: 50%;
+}
+
+[type="button"], [type="submit"], button
+{
+	width: 100px;
+}
+
+input[id="imirForm"]
+/* input#imieForm lub #imieForm */
+{
+
+}
+
+input[id]
+{
+	
+}
+
+[id="passwordForm"]
+{
+	
+}
+
+[id]
+{
+
+}
+
+form > [class="podstawowe"]
+/* form > div.podstawowe lub form > .podstawowe */
+{
+	background-color: #cae919;
+	margin: 0;
+}
+
+.opcje label
+{
+	display: inline;
+}
+
+/*
++ element poprzedzajacy bezposrednio
+~ element poprzedzajacy niebezposrednio
+> element bedacy dzieckiem tego znacznika
+spacja element zagniezdzony w tym znaczniku
+*/
