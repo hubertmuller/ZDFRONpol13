@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .pudlo {
+            border: 1px solid red;
+            display: flex;
+            height: 179px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            align-content: flex-start;
+        }
+
+        .pudlo__item {
+            border: 1px solid black;
+            height: 50px;
+            width: 50px;
+        }
+
+        .pudlo__item--failure {
+            background-color: red;
+            width: 70px;
+            height: 70px;
+        }
+
+        
+        .pudlo__item--good {
+            background-color: green;
+        }
+
+        .pudlo__item--warning {
+            background-color: yellow;
+        }
+
+        .pudlo__item--midnight {
+            background-color: #343800;
+        }
+
+        .pudlo__item--sunset {
+            background-color: #e9f0b5;
+            /* flex: 0.5 0 150px; */
+            width: auto;
+        }
+
+        
+        .pudlo__item--sky {
+            background-color: #00fbff;
+        }
+    </style>
+</head>
+<body>
+    <div class="pudlo">
+        <div class="pudlo__item pudlo__item--sunset">one</div>
+        <div class="pudlo__item pudlo__item--good">two</div>
+        <div class="pudlo__item pudlo__item--failure">three</div>
+        <div class="pudlo__item pudlo__item--warning">four</div>
+        <div class="pudlo__item pudlo__item--sky">five</div>
+        <div class="pudlo__item pudlo__item--midnight">six</div>
+    </div>
+</body>
+</html>
