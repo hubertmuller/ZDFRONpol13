@@ -40,15 +40,120 @@ button,
 }
 
 .opcje label {
-    display: inline;
+    display: inline-block;
 }
 
-label {
+label, legend, .spacer {
     display: inline-block;
     width: 66px;
 }
 
-[type="button"], [type="submit"], button {
-    width: 100px;
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+fieldset label {
+    width: auto;
+    padding-left: 20px;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    background-color: rgb(254, 158, 201);
+}
+
+tbody > tr:nth-child(2n) {
+    background-color: rgb(126, 121, 252);
+}
+
+thead > tr:first-child {
+    background-color: rgb(99, 84, 0);
+}
+
+tbody > tr:hover {
+    background-color: rgb(44, 36, 255);
+}
+
+tbody > tr:nth-child(3n):hover {
+    background-color: rgb(255, 36, 69);
+}
+
+td, th {
+    padding: 10px;
+    text-align: left;
+}
+
+.kafel {
+    background-color: #ffbc6c;
+    display: inline-block;
+    width: 250px;
+    height: 140px;
+    position: relative;
+    overflow: hidden;
+}
+
+.kafel--zalobny {
+    background-color: #1a0e00;
+
+}
+
+.kafel__obrazek {
+    width: 100%;
+}
+
+.kafel__tytul {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    margin: 10px;
+    background: rgba(100,100,150, 0.50);
+    border-radius: 3px;
+    padding: 5px;
+    z-index: 1;
+}
+
+.kafel__tytul--zalobny {
+    background: rgba(0,0,0, 0.8);
+    color: #fff;
+}
+
+.kafel__obrazek--zalobny {
+    filter: grayscale();
+}
+
+.kafel__zajawka {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 10px 10px 25px 10px;
+    background: rgba(220,220,220, 0.6);
+    color:black;
+}
+
+.kafel__link {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+    border-radius: 3px;
+    font-size: 11px;
+}
+
+.kafel__link:hover {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color:rgb(255, 36, 69);
+    color: white;
 }
 
