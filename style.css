@@ -52,3 +52,23 @@ label {
     width: 100px;
 }
 
+thead {
+    background-color: rgb(14, 105, 110);
+}
+
+tr:nth-child(2n) {
+    background-color: cadetblue;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(17, 125, 129);
+}
+
+tbody tr:hover {
+    background-color: aqua;
+} 
+
+td, th {
+    padding: 10px;
+    text-align: left;
+}
