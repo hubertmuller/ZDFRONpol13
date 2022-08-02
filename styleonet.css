@@ -1,0 +1,25 @@
+.kafel {
+    background-color: antiquewhite;
+    display: inline-block;
+    height: 250px;
+    width: 300px;
+    position: relative;
+}
+.kafel--zalobny {
+    background-color: rgb(80, 71, 71);
+}
+
+.kafel__obrazek {
+    width: 100%;
+}
+
+.kafel__tytul {
+    position: absolute;
+    font-size: 14px;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    background: rgba(100,100,150, 0,50);
+    border-radius: 3px;
+    padding: 5px;
+}
