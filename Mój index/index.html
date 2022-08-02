@@ -27,8 +27,13 @@
     
         <form method="post" action="index2.html">
             <div>
+            <div class="podstawowe">
                 <label for="imieForm">Imię</label>
                 <input id="imieForm" type="text" name="imie">
+            </div>
+            <div class="podstawowe">
+                <label for="nazwiskoForm">Nazwisko</label>
+                <input id="nazwiskoForm" type="text" name="nazwisko">
             </div>
             <div>
                 <label for="hasloForm">Hasło</label>
@@ -45,6 +50,52 @@
             <div>
                 <label for="kolorForm">Ulubiony kolor</label>
                 <input id="kolorForm" type="color" name="kolor">
+            </div>
+            <div>
+                <label for="dzieciForm">Ilość dzieci</label>
+                <select id="dzieciForm" name="dzieci">
+                    <option value="0">brak</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4+">4 i więcej</option>
+                </select>
+            </div>
+            <div>
+                <label for="plecdzieciForm">Płeć dzieci</label>
+                <select id="plecdzieciForm" name="plecdzieci", multiple>
+                    <option value="ch">chłopiec</option>
+                    <option value="dz">dziewczynka</option>
+                </select>
+            </div>
+            <div>
+                <label for="uwagiForm">Uwagi</label>
+                <textarea id="uwagiForm" name="uwagi" cols="30">uwagi...</textarea>
+            </div>
+            <div class:"opcje">
+                <label for="poczestunekForm">Poczęstunek</label>
+ 
+                <label for="kawaForm">kawa</label>
+                <input type="checkbox" id="kawaForm" name="kawa">
+                <label for="herbataForm">herbata</label>
+                <input type="checkbox" id="herbataForm" name="herbata">
+                <label for="ciastoForm">ciasto</label>
+                <input type="checkbox" id="ciastoForm" name="ciasto">            
+            </div>
+            <div class:"opcje">
+                <label for="plecForm">Płeć</label>
+            
+                <label for="kobietaForm">kobieta</label>
+                <input type="radio" id="kobietaForm" name="plec" value="kobieta">
+                <label for="mezczyznaForm">mężczyzna</label>
+                <input type="radio" id="mezczyznaForm" name="plec" value="mezczyzna">
+            </div>           
+            
+            <div>
+                <button>Wyślij</button>
+                <input name="wyslij" type="button" value="Wyślij">
+            </div>
+            85
             </div>
         </form>
 
