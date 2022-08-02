@@ -235,7 +235,8 @@
                    <textarea name="uwagi" id="uwagiForm">...</textarea>
                 </div>
             <div class="opcje">
-                <label for="uwagiForm">Płeć</label>
+                <fieldset>
+                <legend>Płeć</legend>
                 <label for="kobietaForm">Kobieta</label>    
                 <input type="radio" id="kobietaForm" name="płeć" value="kobieta">
                 <label for="mężczyznaForm">Mężczyzna</label>
@@ -243,17 +244,20 @@
                     <input type="radio" name="płeć2" value="kobieta">
                     <input type="radio" name="płeć2" value="mężczyzna">
                     <input type="radio" name="płeć2" value="obojnak">
+                </fieldset>
                 </div>
                 <div class="opcje">
-                    <label for="poczęstunekForm">Poczęstunek</label>
+                    <fieldset>
+                    <legend>Poczęstunek</legend>
                         <label for="kawaForm">kawa</label>
                         <input type="checkbox" id="kawaForm" name="poczęstunek" value="kawa">
                         <label for="herbataForm">herbata</label>
                         <input type="checkbox" id="herbataForm" name="poczęstunek" value="herbata">
                         <label for="ciastkoForm">ciastko</label>
                         <input type="checkbox" id="ciastkoForm" name="poczęstunek" value="ciastko">
+                    </fieldset>
                     </div>
-            <div>
+            <div style="padding-left: 70px;">
                 <input name="Wyślij" type="button" value="Wyślij">
                 <button>Wyślij</button>
                 <input type="submit" value="Wyślij">

@@ -110,12 +110,24 @@ ol{
     margin-inline-start: 2em;
 }
 
-label{
+label, legend {
     display: inline-block;
-    width: 150px;
+    width: 66px;
 }
 
-div{
+fieldset label {
+	width: auto;
+	padding-left: 20px;
+}
+
+
+fieldset {
+	border: none;
+	padding: 0;
+
+}
+
+div {
     margin: 10px 0;
 }
 
