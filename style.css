@@ -69,3 +69,31 @@ input[id] {
 
 }
 */
+
+/*02.08.2022*/
+tr {
+    background-color: rgb(125, 94, 198);
+}
+
+tbody > tr:nth-child(2n) {
+    background-color: rgb(62, 121, 92);
+}
+
+tbody > tr:hover {
+    background-color: chartreuse;
+}
+
+/*style w konwencji BEM */
+.kafel {
+    background-color: rgb(219, 225, 215);
+
+}
+
+.kafel--zalobny {
+    background-color: rgb(71, 74, 75);
+
+}
+
+.kafel__obrazek {
+    filter: grayscale()
+}

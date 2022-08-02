@@ -148,7 +148,8 @@
             <textarea name="uwagi" id="uwagiForm">... </textarea>
         </div>
         <div class="opcje">
-            <label for="uwagiForm">Płeć</label>
+            <fieldset style=" border: none;"></fieldset>
+            <legend for="uwagiForm">Płeć</label>
 
             <label for="kobietaForm">Kobieta</label>
             <input type="radio" id="kobietaForm" name="plec" value="k">
@@ -157,7 +158,7 @@
         </div>
 
         <div class="opcje">
-            <label for="uwagiForm">Poczęstunek</label>
+            <legend for="uwagiForm">Poczęstunek</label>
 
             <label for="kawaForm">Kawa</label>
             <input type="checkbox" id="kawaForm" name="poczestunek" value="k">
@@ -167,9 +168,9 @@
             <input type="checkbox" id="ciastkoForm" name="poczestunek" value="c">
         </div>
         <div>
-            <input type="button" value="Wyślij1">
-            <input name="wyslij" type="button" value="Wyślij2">
-            <input type="submit" value="Wyślij3">
+            <!-- <input type="button" value="Wyślij1">
+            <input name="wyslij" type="button" value="Wyślij2">-->
+            <input type="submit" value="Wyślij">
         </div>
     </form>
 
@@ -183,8 +184,91 @@
     </div>
     
     <h1>02.08.2022</h1>
+    <table border="1" width="100%">
+        <caption>Tabela testowa do stylowania</caption>
+        <thead>
+            <tr>
+                <td>
+                    treść 1.1
+                </td>
 
+                <td>
+                    treść 1.2
+                </td>
+
+                <td>
+                    treść 1.3
+                </td>
+
+            </tr>
+        </thead>
+        <tr>
+            <td colspan="3">
+                treść 2.1
+
+                treść 2.2
+
+                treść 2.3
+            </td>
+
+
+
+
+        </tr>
+        <tr>
+            <td rowspan="2">
+                treść 3.1
+            </td>
+
+            <td>
+                treść 3.2
+            </td>
+
+            <td>
+                treść 3.3
+            </td>
+
+        </tr>
+        <tr>
+
+
+            <td colspan="2">
+                treść 4.2
+            </td>
+
+
+
+
+        </tr>
+        <tfoot>
+            <tr>
+                <td colspan="3">Podsumowanie</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!--bloczki-zdjęcia, 02.08.2022 18:55
+    <div class="kafel"></div>
+    <div class="kafel kaf--zaloba"></div>
     
+    -->
+    <h1>wiadomości kredytowe</h1>
+    <div>
+        <div class="kafel">
+            <h2 class="kafel__tytul">Wygrała w Totka. Lata F16</h2>
+            <img class="kafel__obrazek" scr="img/g1.webp" alt="Zdjęcie F16">
+            <p class="kafel__zajawka">"Wygrała 17 milionów i nienawidzi samochodów. Kupiła F16"</p>
+            <a class="kafel__link" href="index3.html">więcej</a>
+        </div>
+
+        <div class="kafel kafel--zalobny">
+            <h2 class="kafel__tytul">Zmarł w wybuchu</h2>
+            <img class="kafel__obrazek kafel__obrazek--zalobny" scr="img/g2.webp" alt="Zdjęcie wybuchu">
+            <p class="kafel__zajawka">"W zeszłym roku dostał nobla, dziś nie żyje"</p>
+            <a class="kafel__link" href="index3.html">więcej</a>
+        </div>
+
+    </div>
 </body>
 
 </html>
