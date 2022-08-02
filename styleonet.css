@@ -1,12 +1,13 @@
 .kafel {
     background-color: antiquewhite;
     display: inline-block;
-    height: 250px;
+    height: 140px;
     width: 300px;
     position: relative;
+    overflow: hidden;
 }
 .kafel--zalobny {
-    background-color: rgb(80, 71, 71);
+    background-color: rgb(145, 139, 139);
 }
 
 .kafel__obrazek {
@@ -19,7 +20,62 @@
     top: 0;
     right: 0;
     margin: 10px;
-    background: rgba(100,100,150, 0,50);
+    background: rgb(100,100,150, 0.5);
     border-radius: 3px;
     padding: 5px;
+    z-index: 1;
+}
+
+.kafel__tytul--zalobny {
+    color: #fff;
+    background: rgb(000, 000, 000, 0.8);
+}
+
+.kafel__obrazek--zalobny {
+    filter: grayscale();
+}
+
+.kafel__zajawka {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 10px, 10px, 25px, 10px;
+    background: rgb(220, 220, 220, 0.6);
+    color: black;
+}
+
+.kafel__link {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+    border-radius: 3px;
+    font-size: 11px;
+}
+
+.kafel__link:hover {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.kafel__tytul--radosny {
+    color: rgb(7, 7, 7);
+    background: rgba(221, 192, 24, 0.8);
+}
+
+.kafel__zajawka--radosny {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 10px, 10px, 25px, 10px;
+    background: rgba(143, 238, 20, 0.8);
+    color: black;
+    font-weight: bold;
 }
