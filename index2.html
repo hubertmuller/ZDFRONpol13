@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <style>
+        /*
+        body {
+            color: red;
+        }
+        */
+    </style>
+</head>
+
+<body>
+
+    <h1>Wiadomości kredytowe</h1>
+
+    <div>
+
+        
+    </div>
+
+    <h1>Rządowe wsparcie dla kredytobiorców - wakacje kredytowe</h1>
+    <p>
+
+    <table border="1" width="100%">
+        <caption>Detale wsparcia</caption>
+        <thead>
+            <tr>
+                <th>
+                    Okres
+                </th>
+                <th>
+                    ilość miesięcy bez kredytu
+                </th>
+                <th>
+                    Przewidywane stopy procentowe
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    III kwartał 2022
+                </td>
+                <td>
+                    2
+                </td>
+                <td>
+                    7.5%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    IV kwartał 2022
+                </td>
+                <td>
+                    2
+                </td>
+                <td>
+                    8%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    I kwartał 2023
+                </td>
+                <td>
+                    1
+                </td>
+                <td>
+                    18%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    II kwartał 2023
+                </td>
+                <td>
+                    1
+                </td>
+                <td>
+                    18%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    III kwartał 2023
+                </td>
+                <td>
+                    1
+                </td>
+                <td>
+                    18%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    IV kwartał 2023
+                </td>
+                <td>
+                    1
+                </td>
+                <td>
+                    18%
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </p>
+
+    <h1>Formularz wakacji kredytowych</h1>
+
+    <p>Wakacje kredytowe mogą dotyczyć jednej umowy zawartej w złotych polskich w celu nabycia nieruchomości przeznaczonej na zaspokojenie własnych potrzeb mieszkaniowych. To nawet 8 miesięcy bez spłaty rat kredytowych:
+
+        po 2 miesiące w trzecim i czwartym kwartale 2022 r.
+        po 1 miesiącu w każdym z czterech kwartałów 2023 r.
+        Wakacje kredytowe dotyczą zarówno części kapitałowej, jak i odsetkowej kredytu. Terminy na spłatę rat zostaną przedłużone bez żadnych dodatkowych odsetek.
+    </p>
+
+    <h3>Przed wypełnieniem zapoznaj się z linkami</h3>
+
+    <ul>
+        <li>Co to są wakacje kredytowe</li>
+        <li>Kto może skorzystać</li>
+        <li>Jak złożyć wniosek</li>
+        <li>Fundusz Wsparcia Kredytobiorców</li>
+        <li>Procedura wyznaczenia zamiennika za WIBOR</li>
+        <li>Pliki do pobrania</li>\
+
+    </ul>
+
+    
+    <form method="post" action="index2.html">
+        <div>
+            <div class="podstawowe">
+                <label for="imieForm">Imię</label>
+                <input id="imieForm" type="text" name="imie">
+            </div>
+        </div>
+    </form>
+
+    <form method="post" action="index2.html">
+        <div>
+        <div class="podstawowe">
+            <label for="imieForm">Imię</label>
+            <input id="imieForm" type="text" name="imie">
+        </div>
+        <div class="podstawowe">
+            <label for="nazwiskoForm">Nazwisko</label>
+            <input id="nazwiskoForm" type="text" name="nazwisko">
+        </div>
+        <div class="podstawowe">
+            <label for="passwordForm">Hasło</label>
+            <input id="passwordForm" type="password" name="haslo">
+        </div>
+        <div>
+            <label for="wiekForm">Wiek</label>
+            <input id="wiekForm" type="number" name="wiek">
+        </div>
+        <div>
+            <label for="dzieciForm">Ilość dzieci</label>
+            <select name="dzieci" id="dzieciForm">
+                <option value="1">jeden</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4+</option>
+            </select>
+        </div>
+        <div>
+            <label for="uwagiForm">Uwagi</label>
+            <textarea name="uwagi" id="uwagiForm">...</textarea>
+        </div>
+        <div class="opcje">
+            <label for="uwagiForm">Płeć</label>
+
+            <label for="kobietaForm">Kobieta</label>
+            <input type="radio" id="kobietaForm" name="plec" value="k">
+            <label for="mezczyznaForm">Mężczyzna</label>
+            <input type="radio" id="mezczyznaForm" name="plec" value="m">
+        </div>
+        <div class="opcje">
+            <label for="uwagiForm">Poczęstunek</label>
+            
+            <label for="kawaForm">Kawa</label>
+            <input type="checkbox" id="kawaForm" name="poczestunek" value="k">
+            <label for="herbataForm">Herbata</label>
+            <input type="checkbox" id="herbataForm" name="poczestunek" value="h">
+            <label for="ciastkoForm">Ciastko</label>
+            <input type="checkbox" id="ciastkoForm" name="poczestunek" value="c">
+        </div>
+        <div>
+            <input type="submit" value="Wyślij">
+        </div>
+
+    </div>
+    </form>
+
+
+</body>
+
+</html>

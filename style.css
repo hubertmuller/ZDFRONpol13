@@ -41,3 +41,7 @@ input, textarea, select, button {
     border-radius: 2px;
     
 }
+
+input[type="submit"] {
+    margin-left: 100px;
+}
