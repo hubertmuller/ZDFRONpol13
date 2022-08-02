@@ -1,7 +1,7 @@
 .glowny {
     display: flex;
     align-content: flex-start;
-    flex-direction: row-reverse;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
@@ -12,6 +12,7 @@
     width: 250px;
     position: relative;
     overflow: hidden;
+    margin: 5px;
 }
 .kafel--zalobny {
     background-color: rgb(145, 139, 139);
@@ -47,15 +48,15 @@
     left: 0;
     bottom: 0;
     margin: 0;
-    padding: 10px, 10px, 25px, 10px;
+    padding: 5px 10px 20px 10px;
     background: rgb(220, 220, 220, 0.6);
     color: black;
 }
 
 .kafel__link {
     position: absolute;
-    bottom: 10px;
-    right: 10px;
+    bottom: 5px;
+    right: 5px;
     text-decoration: none;
     color: black;
     padding: 3px;
@@ -65,8 +66,8 @@
 
 .kafel__link:hover {
     position: absolute;
-    bottom: 10px;
-    right: 10px;
+    bottom: 5px;
+    right: 5px;
     background-color: blueviolet;
     color: white;
 }
