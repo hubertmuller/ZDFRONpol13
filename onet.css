@@ -1,0 +1,78 @@
+.kafel {
+    background-color: whitesmoke;
+    display: inline-block;
+    width: 250px;
+    height: 160px;
+    position: relative;
+}
+
+.kafel__obrazek--żałobny {
+    background-color: black;
+}
+
+.kafel__obrazek {
+    width: 100%;
+}
+
+.kafel__tytuł {
+    position: absolute;
+    font-size: 15px;
+    margin: 10px;
+    background-color: rgba(162, 192, 237, 0.8);
+    top: 0;
+    right: 0;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.kafel__tytuł--żałobny {
+    background-color: black;
+    color: white;
+}
+
+.kafel__obrazek--żałobny {
+    filter: grayscale(50);
+}
+
+.kafel__zajawka {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin-left: 5px;
+    padding: 10px, 10px, 25px, 10px;
+    background-color: rgba(200, 200, 200, 0.50);
+    font-weight: normal;
+}
+
+    .kafel__link {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    text-decoration: none;
+    color: rgb(5, 21, 21);
+}
+
+    .kafel__link:hover {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    text-decoration: none;
+    background-color: rgb(41, 47, 47);
+    color: aliceblue;
+}
+
+
+
+
+.kafel__tytuł--radosny {
+    background-color: rgb(192, 187, 24);
+    color: white;
+}
+
+
+.kafel__zajawka--radosny {
+    background-color: rgba(176, 167, 37, 0.5);
+    color: rgb(0, 5, 0);
+
+}   
