@@ -140,22 +140,19 @@
             <textarea name="uwagi" id="uwagiForm">...</textarea>
         </div>
 
-        <div>
-            <input name="wyślij" type="button" value="wyślij">
-            <button>wyślij</button>
-            <input type="submit" value="wyślij">
-        </div>
-
         <div class="opcje">
-            <label for="uwagiForm">Płeć</label>
+            <fieldset>
+            <legend >Płeć</legend>
             <label for="kobietaForm">Kobieta</label>
             <input type="radio" id="kobietaForm" name="plec" value="k">
             <label for="mężczyznaForm">Mężczyzna</label>
             <input type="radio" id="mężczyznaForm"  name="plec" value="m">
+            </fieldset>
         </div>
 
         <div class="opcje">
-            <label for="poczęstunekForm">Poczęstunek</label>
+        <fieldset>
+            <legend >Poczęstunek</legend>
 
             <label for="kawaForm">Kawa</label>
             <input type="checkbox" id="kawaForm" name="poczęstunek" value="k">
@@ -163,6 +160,12 @@
             <input type="checkbox" id="herbataForm" name="poczęstunek" value="h">
             <label for="ciastoForm">Ciasto</label>
             <input type="checkbox" id="ciastoForm" name="poczęstunek" value="c">
+        </fieldset>
+        </div>
+
+        <div>
+            <div class="spacer"> </div>
+            <input type="submit" value="wyślij">
         </div>
 
     </form>
