@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /*
+        body {
+            color: red;
+        }
+        */
+    </style>
+</head>
+
+<body>
+    <h1>Formularz zapisow</h1>
+    <p>
+        <span style="">Przykład</span> znacznika:
+        &lt;p&gt;&lt;/p&gt; &copy; &reg; &uuml;
+        &amp; &nbsp;
+
+    <table border="1" width="100%">
+        <caption>Wykaz uczestników</caption>
+        <thead>
+            <tr>
+                <th>
+                    Imię
+                </th>
+                <th>
+                    Nazwisko
+                </th>
+                <th>
+                    Wiek
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Hubert
+                </td>
+                <td>
+                    M&uuml;ller
+                </td>
+                <td rowspan="2">
+                    44
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Hubert
+                </td>
+                <td>
+                    Kowalski
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Hubert
+
+                    Kowalski
+                </td>
+                <td>
+                    44
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Łącznie: 300</td>
+            </tr>
+        </tfoot>
+    </table>
+    </p>
+
+    <h1>Formularz zapisow 2</h1>
+
+    <p>Lorem ipsum et door sit amet Lorem ipsum et NOWA sLINIA<br>
+        door sit ametLorem ipsum et door sit ametLorem
+        ipsum et door sit ametLorem ipsum et door
+        sit ametLorem ipsum et door sit ametLorem
+    </p>
+
+    <ol class="podstawowe">
+        <li>Kość strzałkowa</li>
+        <li>Kość łokciowa</li>
+        <ul>
+            <li>Kość strzałkowa</li>
+            <li>Kość łokciowa</li>
+            <li>Kość jakaś</li>
+        </ul>
+        <li>Kość jakaś</li>
+        <ul>
+            <li>Kość strzałkowa</li>
+            <li>Kość łokciowa</li>
+            <li style="color: red;">Kość jakaś</li>
+            <ol>
+                <li>Kość strzałkowa</li>
+                <li>Kość łokciowa</li>
+                <li>Kość jakaś</li>
+            </ol>
+        </ul>
+    </ol>
+
+    <form method="post" action="index2.html">
+        <div>
+            <div class="podstawowe">
+                <label for="imieForm">Imię</label>
+                <input id="imieForm" type="text" name="imie">
+            </div>
+        </div>
+    </form>
+
+    <form method="post" action="index2.html">
+        <div>
+        <div class="podstawowe">
+            <label for="imieForm">Imię</label>
+            <input id="imieForm" type="text" name="imie">
+        </div>
+        <div class="podstawowe">
+            <label for="nazwiskoForm">Nazwisko</label>
+            <input id="nazwiskoForm" type="text" name="nazwisko">
+        </div>
+        <div class="podstawowe">
+            <label for="passwordForm">Hasło</label>
+            <input id="passwordForm" type="password" name="haslo">
+        </div>
+        <div>
+            <label for="wiekForm">Wiek</label>
+            <input id="wiekForm" type="number" name="wiek">
+        </div>
+        <div>
+            <label for="dzieciForm">Ilość dzieci</label>
+            <select name="dzieci" id="dzieciForm">
+                <option value="1">jeden</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4+</option>
+            </select>
+        </div>
+        <div>
+            <label for="uwagiForm">Uwagi</label>
+            <textarea name="uwagi" id="uwagiForm">...</textarea>
+        </div>
+        <div class="opcje">
+            <label for="uwagiForm">Płeć</label>
+
+            <label for="kobietaForm">Kobieta</label>
+            <input type="radio" id="kobietaForm" name="plec" value="k">
+            <label for="mezczyznaForm">Mężczyzna</label>
+            <input type="radio" id="mezczyznaForm" name="plec" value="m">
+        </div>
+        <div class="opcje">
+            <label for="uwagiForm">Poczęstunek</label>
+            
+            <label for="kawaForm">Kawa</label>
+            <input type="checkbox" id="kawaForm" name="poczestunek" value="k">
+            <label for="herbataForm">Herbata</label>
+            <input type="checkbox" id="herbataForm" name="poczestunek" value="h">
+            <label for="ciastkoForm">Ciastko</label>
+            <input type="checkbox" id="ciastkoForm" name="poczestunek" value="c">
+        </div>
+        <div>
+            <input name="wyslij" type="button" value="Wyślij">
+            <button>Wyslij</button>
+            <button>Wyslij2</button>
+            <input type="submit" value="Wyślij">
+        </div>
+
+    </div>
+    </form>
+
+    <div style="width: 500px; border: 1px solid black;">
+        <div style="width: 100%;border: 1px solid black;margin: 0;padding: 5px;">
+            pierwszy wiersz
+        </div><div style="
+    width: 198px;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 0;
+    padding: 5px;
+">
+            2.w 1.kol
+        </div><div style="
+    width: 300px;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 0;
+    padding: 5px;
+">
+            2.w 2.kol
+        </div><div style="
+        width: 100px;
+        display: inline-block;
+        border: 1px solid black;
+        margin: 0;
+        padding: 5px;
+    ">
+            3.w 1.kol
+        </div><div style="
+            width: 98px;
+            display: inline-block;
+            border: 1px solid black;
+            margin: 0;
+            padding: 5px;
+        ">
+            3.w 2.kol
+        </div><div style="
+                width: 300px;
+                display: inline-block;
+                border: 1px solid black;
+                margin: 0;
+                padding: 5px;
+            ">
+            3.w 3.kol
+        </div>
+    </div>
+
+
+
+
+    <div style="width: 150px; display:inline-block; background-color: red;">
+czerwony
+    </div>
+    <div style="width: 150px; display:inline-block;background-color: rgb(0, 255, 89);">
+        zilony
+            </div>
+            <div style="width: 150px; display:inline-block; background-color: rgb(0, 4, 255);">
+                niebieski
+                    </div>
+                    <div style="width: 150px; display:inline-block;background-color: rgb(234, 255, 0);">
+                        zolty
+                            </div>
+</body>
+
+</html>
