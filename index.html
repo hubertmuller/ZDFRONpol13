@@ -21,8 +21,34 @@
     <h1>Wiadomości kredytowe</h1>
 
     <div>
-
+        <div class="kafel">
+            <h2 class="kafel__tytul">Wygrała w Totka. Lata F16</h2>
+            <img class="kafel__obrazek" src="img/g1.webp" alt="Zdjęcie F16" />
+            <p class="kafel__zajawka">Wygrała 17 milionów i nienawidzi samochodów. Kupiła F16</p>
+            <a class="kafel__link" href="index3.html">więcej</a>
+        </div>
         
+        <div class="kafel kafel--zalobny">
+            <h2 class="kafel__tytul kafel__tytul--zalobny">Zmarł w wybuchu</h2>
+            <img class="kafel__obrazek kafel__obrazek--zalobny" src="img/g2.webp" alt="Zdjęcie wybuchu" />
+             <p class="kafel__zajawka">W zeszłym roku dostał Nobla, dziś nie żyje</p>
+            <a class="kafel__link" href="index3.html">więcej</a>
+        </div>
+
+        <div class="kafel kafel--radosny">
+            <h2 class="kafel__tytul kafel__tytul--radosny">Polacy milionerami!!!</h2>
+            <img class="kafel__obrazek kafel__obrazek--radosny" src="img/g4.webp" alt="Zdjęcie wybuchu" />
+            <p class="kafel__zajawka kafel__zajawka--radosny">Bank dopisał do rachunków klientów sześć zer!</p>
+            <a class="kafel__link" href="index3.html">więcej</a>
+        </div>
+
+        <div class="kafel">
+            <h2 class="kafel__tytul">Wygrała w Totka. Lata F16</h2>
+            <img class="kafel__obrazek" src="img/g3.jpeg" alt="Zdjęcie F16" />
+            <p class="kafel__zajawka">Wygrała 17 milionów i nienawidzi samochodów. Kupiła F16</p>
+            <a class="kafel__link" href="index3.html">więcej</a>
+        </div>
+    
     </div>
 
     <h1>Rządowe wsparcie dla kredytobiorców - wakacje kredytowe</h1>
@@ -36,7 +62,7 @@
                     Okres
                 </th>
                 <th>
-                    ilość miesięcy bez kredytu
+                    Ilość miesięcy bez kredytu
                 </th>
                 <th>
                     Przewidywane stopy procentowe
@@ -135,15 +161,6 @@
 
     </ul>
 
-    
-    <form method="post" action="index2.html">
-        <div>
-            <div class="podstawowe">
-                <label for="imieForm">Imię</label>
-                <input id="imieForm" type="text" name="imie">
-            </div>
-        </div>
-    </form>
 
     <form method="post" action="index2.html">
         <div>
@@ -177,25 +194,31 @@
             <textarea name="uwagi" id="uwagiForm">...</textarea>
         </div>
         <div class="opcje">
-            <label for="uwagiForm">Płeć</label>
+            <fieldset>
+                <legend for="uwagiForm">Płeć</legend>
 
-            <label for="kobietaForm">Kobieta</label>
-            <input type="radio" id="kobietaForm" name="plec" value="k">
-            <label for="mezczyznaForm">Mężczyzna</label>
-            <input type="radio" id="mezczyznaForm" name="plec" value="m">
+                <label for="kobietaForm">Kobieta</label>
+                <input type="radio" id="kobietaForm" name="plec" value="k">
+                <label for="mezczyznaForm">Mężczyzna</label>
+                <input type="radio" id="mezczyznaForm" name="plec" value="m">
+            </fieldset>
         </div>
         <div class="opcje">
-            <label for="uwagiForm">Poczęstunek</label>
-            
-            <label for="kawaForm">Kawa</label>
-            <input type="checkbox" id="kawaForm" name="poczestunek" value="k">
-            <label for="herbataForm">Herbata</label>
-            <input type="checkbox" id="herbataForm" name="poczestunek" value="h">
-            <label for="ciastkoForm">Ciastko</label>
-            <input type="checkbox" id="ciastkoForm" name="poczestunek" value="c">
+            <fieldset>
+                <legend for="uwagiForm">Poczęstunek</legend>
+                
+                <label for="kawaForm">Kawa</label>
+                <input type="checkbox" id="kawaForm" name="poczestunek" value="k">
+                <label for="herbataForm">Herbata</label>
+                <input type="checkbox" id="herbataForm" name="poczestunek" value="h">
+                <label for="ciastkoForm">Ciastko</label>
+                <input type="checkbox" id="ciastkoForm" name="poczestunek" value="c">
+            </fieldset>
         </div>
         <div>
-            <input type="submit" value="Wyślij">
+            <div class="spacer">
+                <input type="submit" value="Wyślij">
+            </div>
         </div>
 
     </div>
