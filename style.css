@@ -201,6 +201,30 @@ form > [class="podstawowe"]
 	display: inline;
 }
 
+table {
+	border-collapse: collapse;
+}
+tr {
+	background-color: #e3e7bc;
+}
+
+tbody > tr:nth-child(2n) {
+	background-color: #ce72a8;
+}
+
+thead > tr:first-child {
+	background-color: #65e770;
+}
+
+tbody > tr:hover {
+	background-color: #452bdb;
+}
+
+td, th {
+	padding: 10px;
+	text-align: left;
+}
+
 /*
 + element poprzedzajacy bezposrednio
 ~ element poprzedzajacy niebezposrednio
