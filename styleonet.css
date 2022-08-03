@@ -1,8 +1,23 @@
+body {
+    margin: 0;
+    margin-top: 40px;
+    font-family: ;
+}
+
 .glowny {
     display: flex;
     align-content: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.naglowekStrony {
+    position: fixed;
+    top: 0;
+    background-color: aquamarine;
+    margin: 0;
+    width: 100%;
+    z-index: 2;
 }
 
 .kafel {
@@ -13,6 +28,7 @@
     position: relative;
     overflow: hidden;
     margin: 5px;
+    flex: 0 0 auto;
 }
 .kafel--zalobny {
     background-color: rgb(145, 139, 139);
@@ -106,4 +122,5 @@
     height: 150px;
     margin: 0;
     background-position: center;
+    background-repeat: no-repeat;
 }
