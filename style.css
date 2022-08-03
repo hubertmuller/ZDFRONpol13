@@ -4,22 +4,74 @@ h1 {
 }
 
 /*TEN STYL JEst do czegos*/
+div {
+    margin: 10px 0;
+}
 
 
-label {
+label
+ {
 
     display: inline-block;
     width: 43px;
 }
 
-/** {
-    margin-top: 5px;
-   margin-left: 20px; 
-}*/
-.dlugosc177 
-{
-    width:177px;
-}
+[type="text"], 
+[type="date"],
+[type="time"],
+[type="email"],
+[type="color"],
+[type="password"],
+textarea,
+select,
+[type="number"],
+button,
+[type="submit"],
+[type="button"] {
+    background-color: bisque;
+    border: 1px solid #ffbc6c;
+    outline: none;
+    font-size: 10px;
+    color: #683800;
+    padding: 4px;
+    border-radius: 3px;
+    width: 50%; }
+
+	[type="text"]:hover, 
+	[type="date"]:hover,
+[type="time"]:hover,
+[type="email"]:hover,
+[type="color"]:hover,
+[type="password"]:hover,
+textarea:hover,
+select:hover,
+[type="number"]:hover,
+button:hover,
+[type="submit"]:hover,
+[type="button"]:hover 
+	{background-color: aqua;
+		color: blue;
+	}
+
+	.opcje label {
+		display: inline-block;
+	}
+	
+	label, legend, .spacer {
+		display: inline-block;
+		width: 66px;
+	}
+	
+	fieldset {
+		border: none;
+		padding: 0;
+		margin: 0;
+	}
+	
+	fieldset label {
+		width: auto;
+		padding-left: 20px;
+	}
 
 *{box-sizing: border-box;}
 #glowny 

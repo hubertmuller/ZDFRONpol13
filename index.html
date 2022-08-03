@@ -114,35 +114,77 @@
 </p>
 <p>
     <h1>Zadanie domowe</h1>
-    <form method="post" action="index2.html" style="margin-left: 70px;">
+    <form method="post" action="index2.html">
         <div>
-            <label style="margin-top: 50;" for="imieForm">Imie</label>
-            <input style="margin-top: 50;" id="imieForm" type="text" name="imie">
+            <div class="podstawowe">
+            <label for="imieForm">Imie</label>
+            <input id="imieForm" type="text" name="imie">
         </div>
-        <div>
+    
+        <div class="podstawowe">
             <label for="passwortForm">Haslo</label>
             <input id="passwortForm" type="text" name="haslo">
         </div>
-        <div>
+        <div class="podstawowe">
             <label for="wiekForm">Wiek</label>
             <input id="wiekForm" type="number" name="wiek">
         </div>
-        <div>
+        <div class="podstawowe" >
             <label for="colorForm">Color</label>
-            <input id="colorForm" type="color" name="color" class="dlugosc177" >
+            <input id="colorForm" type="color" name="color">
         </div>
-        <div>
+        <div class="podstawowe">
             <label for="dateForm">Data</label>
-            <input id="dateForm" type="date" name="data" class="dlugosc177">
+            <input id="dateForm" type="date" name="data">
         </div>
-        <div>
+        <div class="podstawowe">
             <label for="timeForm">Czas</label>
-            <input id="timeForm" type="time" name="czas" class="dlugosc177">
+            <input id="timeForm" type="time" name="czas">
+        </div>
+        <div class="podstawowe">
+             <label for="emailForm">email</label>
+             <input id="emailForm" type="email" name="emial">
         </div>
         <div>
-             <label for="emailForm">email</label>
-             <input id="emailForm" type="email" name="emial" class="dlugosc177">
-        </div>
+<label for="dzieciForm">Ilosc dzieci</label>
+<select name="dzieci" id="dzieciForm">
+    <option value="1">jeden</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4+</option>
+</select>
+</div>
+<div>
+    <label for="uwagiForm">Uwagi</label>
+    <textarea name="uwagi" id="uwagiForm">...</textarea>
+</div>
+<div class="opcje">
+    <fieldset>
+        <legend>Płeć</legend>
+
+        <label for="kobietaForm">Kobieta</label>
+        <input type="radio" id="kobietaForm" name="plec" value="k">
+        <label for="mezczyznaForm">Mężczyzna</label>
+        <input type="radio" id="mezczyznaForm" name="plec" value="m">
+    </fieldset>
+</div>
+<div class="opcje">
+    <fieldset>
+        <legend>Poczęstunek</legend>
+        
+        <label for="kawaForm">Kawa</label>
+        <input type="checkbox" id="kawaForm" name="poczestunek" value="k">
+        <label for="herbataForm">Herbata</label>
+        <input type="checkbox" id="herbataForm" name="poczestunek" value="h">
+        <label for="ciastkoForm">Ciastko</label>
+        <input type="checkbox" id="ciastkoForm" name="poczestunek" value="c">
+    </fieldset>
+</div>
+<div>
+    <div class="spacer"> </div>
+    <input type="submit" value="Wyślij">
+</div>
+    </div>
     </form>
     </p>
 </p>
