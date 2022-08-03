@@ -13,7 +13,9 @@ ol {
     list-style-type: disc;
 }
 
-
+html {
+    --odstep: 100px;
+}
 
 div {
     margin: 10px 0;
@@ -39,13 +41,23 @@ button,
     width: 50%;
 }
 
+[type="submit"] {
+    list-style-type: none;
+    background: url(img/b1.png), url(img/b3.png), url(img/b2.png);
+    background-repeat: no-repeat no-repeat, no-repeat, repeat no-repeat;
+    background-size: auto 18px, auto 18px,auto 18px;
+    background-position: left, right, center;
+    border: none;
+
+}
+
 .opcje label {
     display: inline-block;
 }
 
 label, legend, .spacer {
     display: inline-block;
-    width: 66px;
+    width: var(--odstep);
 }
 
 fieldset {
@@ -107,6 +119,20 @@ td, th {
     width: 100%;
 }
 
+.kafel__obrazek--niewidoczny {
+    display: none;
+}
+
+.kafel__obrazek2 {
+    background: url("img/g1.webp");
+    height: 150px;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+}
+
 .kafel__tytul {
     position: absolute;
     top: 0;
@@ -117,6 +143,10 @@ td, th {
     border-radius: 3px;
     padding: 5px;
     z-index: 1;
+}
+
+.kafel--niewidzialny {
+    display: none;
 }
 
 .kafel__tytul--zalobny {
@@ -177,3 +207,17 @@ td, th {
     padding: 10px;
     text-align: left;
 }
+
+legend {
+    display: contents;
+}
+
+legend > span {
+    display: inline-block;
+    width: var(--odstep);
+}
+
+.opcje label:nth-of-type(1) {
+    padding: 0;
+}
+

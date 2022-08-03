@@ -18,7 +18,7 @@
 
 <body>
 
-    <h1>Wiadomości kredytowe</h1>
+    <h1>Wiadomości kredytowe!</h1>
 
     <div style="
     display: flex;
@@ -29,7 +29,8 @@
 
         <div class="kafel">
             <h2 class="kafel__tytul">Przegrała w Totka. Lata F16</h2>
-            <img class="kafel__obrazek" src="img/g1.webp" alt="Zdjęcie F16">
+            <img class="kafel__obrazek kafel__obrazek--niewidoczny" src="img/g1.webp" alt="Zdjęcie F16">
+            <div class="kafel__obrazek2"></div>
             <p class="kafel__zajawka">"Wygrała 17 milionów i nienawidzi smaochodó. Kupiła F16"</p>
             <a class="kafel__link" href="index3.html">więcej</a>
         </div>
@@ -196,7 +197,9 @@
         </div>
         <div class="opcje">
             <fieldset>
-                <legend>Płeć</legend>
+                <legend>
+                    <span>Płeć</span>
+                </legend>
 
                 <label for="kobietaForm">Kobieta</label>
                 <input type="radio" id="kobietaForm" name="plec" value="k">
@@ -206,7 +209,9 @@
         </div>
         <div class="opcje">
             <fieldset>
-                <legend>Poczęstunek</legend>
+                <legend>
+                    <span>Poczęstunek</span>
+                </legend>
                 
                 <label for="kawaForm">Kawa</label>
                 <input type="checkbox" id="kawaForm" name="poczestunek" value="k">
