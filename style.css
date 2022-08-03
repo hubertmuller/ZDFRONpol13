@@ -97,3 +97,15 @@ tbody > tr:hover {
 .kafel__obrazek {
     filter: grayscale()
 }
+
+/*...*/
+
+legend {
+    display: contents;
+
+}
+
+legend > span {
+    display: inline-block;
+    width: 66px;
+}
