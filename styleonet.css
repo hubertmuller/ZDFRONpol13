@@ -87,3 +87,23 @@
     color: black;
     font-weight: bold;
 }
+/*
+.kafel--niewidzialny {
+    visibility: hidden;
+}
+*/
+.kafel--niewidzialny {
+    display: none;
+}
+
+.kafel__obrazek--niewidoczny {
+    display: none;
+}
+
+.kafel__obrazek2 {
+    background-size: cover;
+    background: url("img/g1.webp");
+    height: 150px;
+    margin: 0;
+    background-position: center;
+}
