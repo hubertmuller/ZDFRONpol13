@@ -1,18 +1,39 @@
+<<<<<<< HEAD
 h1 {
     font-size: 2em;
     font-weight: normal;
 }
 
 * 
+=======
+/*h1 {
+    font-size: 2em; 
+    font-weight: normal;
+}*/
+
+/*TEN STYL JEst do czegos*/
+
+* {
+    box-sizing: border-box;
+}
+
+>>>>>>> 5f6256a65eaeb09119837c508810ec9df7b9b581
 ol {
     list-style-type: disc;
 }
 
+<<<<<<< HEAD
 label {
 display: inline-block;
 width: 43px;
 
 }
+=======
+html {
+    --odstep: 100px;
+}
+
+>>>>>>> 5f6256a65eaeb09119837c508810ec9df7b9b581
 div {
     margin: 10px 0;
 }
@@ -37,13 +58,30 @@ button,
     width: 50%;
 }
 
+<<<<<<< HEAD
+=======
+[type="submit"] {
+    list-style-type: none;
+    background: url(img/b1.png), url(img/b3.png), url(img/b2.png);
+    background-repeat: no-repeat no-repeat, no-repeat, repeat no-repeat;
+    background-size: auto 18px, auto 18px,auto 18px;
+    background-position: left, right, center;
+    border: none;
+
+}
+
+>>>>>>> 5f6256a65eaeb09119837c508810ec9df7b9b581
 .opcje label {
     display: inline-block;
 }
 
 label, legend, .spacer {
     display: inline-block;
+<<<<<<< HEAD
     width: 66px;
+=======
+    width: var(--odstep);
+>>>>>>> 5f6256a65eaeb09119837c508810ec9df7b9b581
 }
 
 fieldset {
@@ -105,6 +143,23 @@ td, th {
     width: 100%;
 }
 
+<<<<<<< HEAD
+=======
+.kafel__obrazek--niewidoczny {
+    display: none;
+}
+
+.kafel__obrazek2 {
+    background: url("img/g1.webp");
+    height: 150px;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+}
+
+>>>>>>> 5f6256a65eaeb09119837c508810ec9df7b9b581
 .kafel__tytul {
     position: absolute;
     top: 0;
@@ -117,6 +172,13 @@ td, th {
     z-index: 1;
 }
 
+<<<<<<< HEAD
+=======
+.kafel--niewidzialny {
+    display: none;
+}
+
+>>>>>>> 5f6256a65eaeb09119837c508810ec9df7b9b581
 .kafel__tytul--zalobny {
     background: rgba(0,0,0, 0.8);
     color: #fff;
@@ -155,6 +217,7 @@ td, th {
     color: white;
 }
 
+<<<<<<< HEAD
 .kafel--radosny {
     background-color: #d87e17;
 
@@ -198,3 +261,39 @@ td, th {
     background-color:rgb(255, 36, 69);
     color: white;
 }
+=======
+thead {
+    background-color: rgb(14, 105, 110);
+}
+
+tr:nth-child(2n) {
+    background-color: cadetblue;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(17, 125, 129);
+}
+
+tbody tr:hover {
+    background-color: aqua;
+} 
+
+td, th {
+    padding: 10px;
+    text-align: left;
+}
+
+legend {
+    display: contents;
+}
+
+legend > span {
+    display: inline-block;
+    width: var(--odstep);
+}
+
+.opcje label:nth-of-type(1) {
+    padding: 0;
+}
+
+>>>>>>> 5f6256a65eaeb09119837c508810ec9df7b9b581
