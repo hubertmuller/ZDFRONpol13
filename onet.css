@@ -66,3 +66,13 @@
     color: white;
 }
 
+.kafel__tytul--radosny {
+    background: rgba(rgb(150, 81, 81), rgb(55, 165, 55), rgb(101, 101, 224), alpha 1);    color: #199b8a;
+}
+.kafel__obrazek--radosny { filter: contrast(1);
+
+}
+.kafel__zajawka--radosny {
+    background-color: aquamarine, 0,5;
+    color: #efb3f5;
+}
