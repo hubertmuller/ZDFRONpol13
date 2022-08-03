@@ -45,3 +45,19 @@ input, textarea, select, button {
 input[type="submit"] {
     margin-left: 100px;
 }
+
+
+
+
+/* legend {
+    display: contents;
+} */
+
+legend > span {
+    display: inline-block;
+    width: 75px;
+}
+
+.opcje label:nth-child(1) {
+    padding: 0px;
+}
