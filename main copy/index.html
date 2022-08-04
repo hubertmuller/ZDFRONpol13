@@ -14,11 +14,21 @@
         }
         */
     </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nunito+Sans:ital,wght@0,200;0,400;0,900;1,200&display=swap');
+    </style>
 </head>
 
 <body>
 
-    <h1 class="naglowekStrony"><span>Wiadomości</span> <span>kredytowe!</span></h1>
+    <h1 class="naglowekStrony" aria-hidden>
+        <span style="
+        text-decoration: underline;
+        font-weight: normal;">
+        Wiadomości
+        </span> 
+        <span>kredytowe</span>
+    </h1>
 
     <div style="
     display: flex;
@@ -30,9 +40,7 @@
         <div class="kafel">
             <h2 class="kafel__tytul">Przegrała w Totka. Lata F16</h2>
             <img class="kafel__obrazek kafel__obrazek--niewidoczny" src="img/g1.webp" alt="Zdjęcie F16">
-            <div class="kafel_obrazek2"></div>
-
-
+            <div class="kafel__obrazek2"></div>
             <p class="kafel__zajawka">"Wygrała 17 milionów i nienawidzi smaochodó. Kupiła F16"</p>
             <a class="kafel__link" href="index3.html">więcej</a>
         </div>
@@ -159,7 +167,7 @@
         <li>Jak złożyć wniosek</li>
         <li>Fundusz Wsparcia Kredytobiorców</li>
         <li>Procedura wyznaczenia zamiennika za WIBOR</li>
-        <li>Pliki do pobrania</li>\
+        <li>Pliki do pobrania</li>
 
     </ul>
 
@@ -211,7 +219,9 @@
         </div>
         <div class="opcje">
             <fieldset>
-                <legend>Poczęstunek</legend>
+                <legend>
+                    <span>Poczęstunek</span>
+                </legend>
                 
                 <label for="kawaForm">Kawa</label>
                 <input type="checkbox" id="kawaForm" name="poczestunek" value="k">
@@ -228,6 +238,20 @@
 
     </div>
     </form>
+
+    <div class="wrapper">
+        <div class="d1">jeden</div>
+        <div class="d2">dwa</div>
+        <div class="d3">trzy</div>
+        <div class="d4">cztery</div>
+        <div class="d5">pieć</div>
+        <div class="d6">szesc</div>
+        <div class="d7">siedem</div>
+        <div class="d8">osiem</div>
+        <div class="d9">dziewiec</div>
+        <div class="d10">dziesiec</div>
+    </div>
+
 
 
 </body>

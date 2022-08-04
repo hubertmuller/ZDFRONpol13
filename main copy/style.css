@@ -5,9 +5,13 @@
 
 /*TEN STYL JEst do czegos*/
 
+@import url('test.css');
+
 * {
     box-sizing: border-box;
 }
+
+
 
 ol {
     list-style-type: disc;
@@ -19,6 +23,8 @@ html {
 
 body {
     margin: 70px 0 0 0;
+    /*font-family: 'Nunito Sans', sans-serif;*/
+    font-family: 'Libre Baskerville', serif;
 }
 
 div {
@@ -48,11 +54,11 @@ button,
 [type="submit"] {
     list-style-type: none;
     background: url(img/b1.png), url(img/b3.png), url(img/b2.png);
-    padding-left: 20px;
     background-repeat: no-repeat no-repeat, no-repeat, repeat no-repeat;
-    background-size: auto 18px, auto 18px, auto 18px;
+    background-size: auto 18px, auto 18px,auto 18px;
     background-position: left, right, center;
-    border:none;
+    border: none;
+
 }
 
 .opcje label {
@@ -112,6 +118,7 @@ td, th {
     height: 140px;
     position: relative;
     overflow: hidden;
+    font-family: 'Nunito Sans', serif;
 }
 
 .kafel--zalobny {
@@ -127,7 +134,7 @@ td, th {
     display: none;
 }
 
-.kafel_obrazek2 {
+.kafel__obrazek2 {
     background: url("img/g1.webp");
     height: 150px;
     margin: 0;
@@ -136,7 +143,6 @@ td, th {
     background-repeat-x: no-repeat;
     background-repeat-y: no-repeat;
 }
-
 
 .kafel__tytul {
     position: absolute;
@@ -150,11 +156,9 @@ td, th {
     z-index: 1;
 }
 
-/*
-.kafel-niewidzialny {
+.kafel--niewidzialny {
     display: none;
 }
-*/
 
 .kafel__tytul--zalobny {
     background: rgba(0,0,0, 0.8);
@@ -197,12 +201,11 @@ td, th {
 .naglowekStrony {
     position: fixed;
     top: 0;
-    background-color: aqua;
+    background-color: #41bb85;
     margin: 0;
     width: 100%;
     z-index: 2;
     padding: 10px;
-
 }
 
 thead {
@@ -226,11 +229,8 @@ td, th {
     text-align: left;
 }
 
-/*...*/
-
 legend {
     display: contents;
-
 }
 
 legend > span {
@@ -238,6 +238,7 @@ legend > span {
     width: var(--odstep);
 }
 
-.opcje label:nth-child(1) {
+.opcje label:nth-of-type(1) {
     padding: 0;
 }
+
