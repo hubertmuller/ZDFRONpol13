@@ -62,3 +62,10 @@ form. [type] {background-color: aquamarine;}
 .opcje label {
     display: inline;
 }
+
+class="1" {
+margin-top: 100px;
+background: bisque;
+border: seashell;
+border-block-color: black;
+}
