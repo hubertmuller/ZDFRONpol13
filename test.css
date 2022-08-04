@@ -4,17 +4,24 @@
     border: 1px solid black;
     width: 500px;
     height: 500px;
+    display: grid;
+
+    grid-template-columns: [start] 50px repeat(2, 50px) auto;
+    grid-template-rows: [poczatek] 40px minmax(40px, 177px) 50px[koniec];
 }
 
 .wrapper > div {
     margin: 0;
     padding: 0;
     border: 1px solid rgb(154, 0, 0);
-    display: grid;
+    
 }
 
 .d1 {
     background-color: rgb(235, 169, 169);
+    grid-column: 3 / 5;
+    grid-row: poczatek/3;
+
 }
 
 .d2 {
@@ -23,6 +30,8 @@
 
 .d3 {
     background-color: rgb(174, 165, 67);
+    grid-column: 1/4;
+    grid-row: 1/2;
 }
 
 .d4 {
