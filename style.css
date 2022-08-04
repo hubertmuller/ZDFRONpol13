@@ -264,11 +264,9 @@ input[type="button"]:hover
 }
 
 [type="submit"] {
-    list-style-type: none;
     background: url(img/b1.png), url(img/b3.png), url(img/b2.png);
     background-repeat: no-repeat no-repeat, no-repeat, repeat no-repeat;
     background-size: auto 18px, auto 18px,auto 18px;
     background-position: left, right, center;
     border: none;
-
 }

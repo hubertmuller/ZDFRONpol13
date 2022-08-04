@@ -123,3 +123,19 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+input {
+    background: url("img/kogut-zadanie.png"), url("img/kogut-zadanie2.png"), linear-gradient(to right, rgb(255, 255, 255) 10%, rgb(188, 237, 249) 50%, rgb(255, 255, 255) 90%);
+    background-size: auto 18px, auto 18px;
+    background-repeat: no-repeat no-repeat, no-repeat no-repeat;
+    background-position: left, right;
+    width: 50%;
+    color: #fff;
+    line-height: 18px;
+    padding: 0px;
+    border-radius: 8px;
+    border: 1px solid rgb(170, 179, 185);
+    display: inline-block;
+    margin-left: 5px;
+
+}
