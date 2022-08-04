@@ -57,7 +57,7 @@ button:hover,
 		display: inline-block;
 	}
 	
-	label, legend, .spacer {
+	label, legend, .spacer, .spacer2  {
 		display: inline-block;
 		width: 66px;
 	}
@@ -71,6 +71,25 @@ button:hover,
 	fieldset label {
 		width: auto;
 		padding-left: 20px;
+	}
+	.spacer {
+		list-style-type: none;
+		background: url(img/b1.png), url(img/b3.png), url(img/b2.png);
+		background-repeat: no-repeat no-repeat, no-repeat, repeat no-repeat;
+		background-size: auto 18px, auto 18px,auto 18px;
+		background-position: left, right, center;
+		border: none;
+	
+	}
+	       
+	[type="submit"] {
+		list-style-type: none;
+		background: url(img/kogut-zadanie.png), url(img/kogut-zadanie2.png), greenyellow;
+		background-repeat: no-repeat no-repeat, no-repeat, no-repeat no-repeat;
+		background-size: auto 18px, auto 18px,auto 18px;
+		background-position: left, right, center;
+		border: green; border-radius: 5px solid;
+	
 	}
 
 *{box-sizing: border-box;}
