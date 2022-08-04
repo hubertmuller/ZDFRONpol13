@@ -5,9 +5,13 @@
 
 /*TEN STYL JEst do czegos*/
 
+@import url('test.css');
+
 * {
     box-sizing: border-box;
 }
+
+
 
 ol {
     list-style-type: disc;
@@ -19,7 +23,8 @@ html {
 
 body {
     margin: 70px 0 0 0;
-    font-family: 'Nunito Sans', sans-serif;
+    /*font-family: 'Nunito Sans', sans-serif;*/
+    font-family: 'Libre Baskerville', serif;
 }
 
 div {
@@ -113,7 +118,7 @@ td, th {
     height: 140px;
     position: relative;
     overflow: hidden;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Nunito Sans', serif;
 }
 
 .kafel--zalobny {
@@ -236,3 +241,4 @@ legend > span {
 .opcje label:nth-of-type(1) {
     padding: 0;
 }
+
