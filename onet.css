@@ -18,7 +18,17 @@
     z-index: 2;
 
 }
-
+.maingrid {
+    display: grid;
+    grid-template-columns: 150px 500px auto;
+    grid-template-rows: 1000px;
+}
+.prawy {
+    grid-column: 1 / 2;
+}
+p {
+    margin-top: 100px;
+}
 .kafle {
     display: flex;
    /* align-content:flex-end;*/
@@ -28,8 +38,7 @@
         
     margin-top: 95px;
    
-    
-    
+       
 }
 .kafel {
     background-color: whitesmoke;
