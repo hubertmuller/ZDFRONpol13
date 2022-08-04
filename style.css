@@ -273,3 +273,14 @@ legend > span {
     padding: 0;
 }
 
+.maingrid {
+
+    display: grid;
+    grid-template-columns: 200px auto 210px;
+    gap: 0 20px;
+}
+
+.prawy {
+
+    padding-right: 10px;
+}
