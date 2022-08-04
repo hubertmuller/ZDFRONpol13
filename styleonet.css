@@ -1,3 +1,5 @@
+@import url('test.css');
+
 body {
     margin: 0;
     margin-top: 40px;
@@ -19,6 +21,46 @@ body {
     z-index: 2;
 }
 
+/*dla drukarek - nie drukujemy naglowka i kafli */
+@media print {
+    .naglowekStrony {
+        visibility: hidden;
+    }
+
+    .kafel {
+        visibility: hidden;
+    }
+}
+
+
+
+.naglowekStrony {
+    position: fixed;
+    top: 0;
+    background-color: aquamarine;
+    margin: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+@media screen and (max-width: 400px) {
+    .naglowekStrony {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .kafel {
+        flex: 1 0 auto;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .kafel {
+        flex: 0 0 auto;
+    }
+}
+
 .kafel {
     background-color: antiquewhite;
     display: inline-block;
@@ -29,6 +71,7 @@ body {
     margin: 5px;
     flex: 0 0 auto;
 }
+
 .kafel--zalobny {
     background-color: rgb(145, 139, 139);
 }
@@ -126,16 +169,31 @@ body {
 
 input {
     background: url("img/kogut-zadanie.png"), url("img/kogut-zadanie2.png"), linear-gradient(to right, rgb(255, 255, 255) 10%, rgb(188, 237, 249) 50%, rgb(255, 255, 255) 90%);
-    background-size: auto 18px, auto 18px;
+    background-size: auto 30px, auto 30px;
     background-repeat: no-repeat no-repeat, no-repeat no-repeat;
     background-position: left, right;
     width: 50%;
     color: #fff;
-    line-height: 18px;
+    line-height: 30px;
     padding: 0px;
     border-radius: 8px;
     border: 1px solid rgb(170, 179, 185);
     display: inline-block;
-    margin-left: 5px;
+    margin: 5px;
+    font-weight: bold;
 
+}
+
+.maingrid {
+    display: grid;
+    grid-template-columns: 100px auto 150px;
+    gap: 0 20px;
+}
+
+.lewy {
+    padding-left: 10px;
+}
+
+.prawy {
+    padding-right: 10px;
 }
