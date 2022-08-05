@@ -198,6 +198,7 @@ td, th {
     color: white;
 }
 
+
 .naglowekStrony {
     position: fixed;
     top: 0;
@@ -207,6 +208,36 @@ td, th {
     z-index: 2;
     padding: 10px;
 }
+
+@media screen and (max-width: 400px) {
+    .naglowekStrony {
+    font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .kafel {
+        flex: 1 0 auto;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .kafel {
+        flex: 0 0 auto;
+    }
+}
+
+/* dla drukarek nie wyswietlamy naglowka*/
+@media print {
+    .naglowekStrony {
+        visibility: hidden;
+    }
+
+    .kafel {
+        visibility: hidden;
+    }
+}
+
 
 thead {
     background-color: rgb(14, 105, 110);
@@ -242,3 +273,14 @@ legend > span {
     padding: 0;
 }
 
+.maingrid {
+
+    display: grid;
+    grid-template-columns: 200px auto 210px;
+    gap: 0 20px;
+}
+
+.prawy {
+
+    padding-right: 10px;
+}
