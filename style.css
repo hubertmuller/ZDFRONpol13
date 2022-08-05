@@ -72,7 +72,7 @@ button:hover,
 		width: auto;
 		padding-left: 20px;
 	}
-	.spacer {
+	 [type="submit"] {
 		list-style-type: none;
 		background: url(img/b1.png), url(img/b3.png), url(img/b2.png);
 		background-repeat: no-repeat no-repeat, no-repeat, repeat no-repeat;
@@ -82,7 +82,7 @@ button:hover,
 	
 	}
 	       
-	[type="submit"] {
+[type="submit"]{
 		list-style-type: none;
 		background: url(img/kogut-zadanie.png), url(img/kogut-zadanie2.png), greenyellow;
 		background-repeat: no-repeat no-repeat, no-repeat, no-repeat no-repeat;
@@ -92,7 +92,7 @@ button:hover,
 	
 	}
 
-*{box-sizing: border-box;}
+/**{box-sizing: border-box;}*/
 #glowny 
     {font-size: 0;
 	width: 500px;
